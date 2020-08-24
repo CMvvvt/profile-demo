@@ -1,13 +1,160 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.head{
+    padding-bottom: 0;
+    margin-bottom: 2px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.nav-link b{
+    color: black;
+}
+
+.ml-auto .nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ml-auto .nav-link:hover {
+    color:black;
+}
+
+.g-card {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.g-card-image {
+    border-radius: 10px;
+    width: 300px;
+    height: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.g-card-info {
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.g-card-title {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.g-card-subTitle {
+    font-size: 10px;
+    margin:0px;
+}
+
+
+
+.social a{
+    font-size: 4.5em;
+    padding:3rem;
+    text-align: center;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram{
+   color: #3f729b;
+}
+
+.fa-weixin{
+    color:#93d034;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-weixin:hover,
+.fa-linkedin:hover {
+    color:#d5d5d5;
+}
+
+
+.icons {
+    width:100%;
+   margin-left: 30%;
+   margin-right: 30%;
+}
+
+.pdf-header {
+    margin-top: 15px;
+    margin-left: 46%;
+}
+
+.pdf-header p{
+    margin-top: 5px;
+}
+
+.pdf {
+ 
+    margin-left: 10%;
+}
+
+.prev{
+    margin-right: 20px;
+}
+
+.pdf-footer {
+    margin-left: 42%;
+}
+
+.pdf-footer p {
+    margin-left: 3%;
+}
+
+
+.about-Button {
+    margin-left: 46%;
+    margin-bottom: 15px;
+}
+
+.body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.success-msg {
+    color: #578773;
+    padding: 10px 15px;
+}
+
+.err-msg {
+    color: #578773;
+    padding: 10px 15px;
+}
+
+
+
+/* project site ------------*/
+
+.profile-page, .about-page, .contact-page, .split-middle{
+    background-color: #dcdcd3;
+    padding-bottom: 30px;
+}
+
+
+
+/* Fo0ter ------------*/
+
+.page-footer {
+    background-color: #009688;
+    color:white;
+}
+
+.footer-copyright {
+    background-color:#00786d;
+    
 }
