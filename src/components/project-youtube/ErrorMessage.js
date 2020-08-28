@@ -7,11 +7,16 @@ import youtubePoster from '../../../src/asset/img/youtubeDemo.png'
 const ErrorMessage = () => {
 
     return(
+        <div>
+            Loading...
+        </div>
+        /*
         <Player 
         playsInline
         poster={youtubePoster}
         src={youtubeDemo}
-        />          
+        />
+        */          
     )
 
 }

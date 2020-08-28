@@ -1,5 +1,9 @@
 import React from 'react';
 import './ProjectGuide.css';
+import {
+    Link
+  } from "react-router-dom";
+
 
 // 完整渲染整个Project页面 split成三个部分
 function ProjectGuideInfo(props) {
@@ -7,7 +11,7 @@ function ProjectGuideInfo(props) {
         <div className="project-guide">
                 <div className="split-left left">
                     <div className="blogName">
-                        <a href="./project"><h1> {props.leftBar.title}</h1></a>
+                         <Link to="/project"><h1>{props.leftBar.title}</h1></Link>
                         <p>{props.leftBar.subTitle}</p>
                     </div>
 

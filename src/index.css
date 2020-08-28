@@ -32,6 +32,7 @@ html {
 .g-card {
     margin-left: 60px;
     margin-right: 60px;
+    
 }
 
 .g-card-image {
@@ -41,19 +42,25 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.g-card-image:hover {
+    cursor: pointer;
+}
+
 .g-card-info {
     margin-top: 10px;
     min-height: 100px;
 }
 
 .g-card-title {
-    font-size: 24px;
+    font-size: 2rem;
+    font-weight: 900;
     margin: 0px;
 }
 
 .g-card-subTitle {
-    font-size: 10px;
-    margin:0px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin:0.5rem 0 0.5rem 0;
 }
 
 
@@ -76,27 +83,34 @@ html {
     color:#93d034;
 }
 
+.fa-github{
+    color: black;
+}
+
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-weixin:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-github:hover {
     color:#d5d5d5;
 }
 
 
 .icons {
     width:100%;
-   margin-left: 30%;
-   margin-right: 30%;
+   margin-left: 22rem;
+   margin-bottom: 4%;
+   margin-top: 4%;
 }
 
 .pdf-header {
+    position: relative;
     margin-top: 15px;
-    margin-left: 46%;
 }
 
 .pdf-header p{
     margin-top: 5px;
+    margin-bottom: 2%;
 }
 
 .pdf {
@@ -108,12 +122,9 @@ html {
     margin-right: 20px;
 }
 
-.pdf-footer {
-    margin-left: 42%;
-}
 
 .pdf-footer p {
-    margin-left: 3%;
+    margin-top: 2%;
 }
 
 
@@ -147,14 +158,31 @@ html {
 
 
 
-/* Fo0ter ------------*/
+/* Footer ------------*/
 
 .page-footer {
-    background-color: #009688;
+    background-color: #353e49;
     color:white;
+    position: relative;
 }
 
 .footer-copyright {
-    background-color:#00786d;
+    background-color:#353e49;
     
+}
+
+.footer-contact, .footer-address, .aboutPage-text {
+    font-size: small;
+    font-weight: 600;
+}
+
+
+.aboutPage-text {
+    width:90%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+h4{
+    color: lightsalmon;
 }

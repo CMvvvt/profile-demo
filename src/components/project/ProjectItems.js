@@ -1,6 +1,9 @@
 import React from 'react';
-import container from 'react-bootstrap/Container';
 import Container from 'react-bootstrap/Container';
+import {
+    Link
+  } from "react-router-dom";
+
 
 export default function ProjectItems(props) {
     return(
@@ -9,11 +12,14 @@ export default function ProjectItems(props) {
                 <img className="items-img" src={props.item.src} alt={props.item.src}/>
                 <div className={props.item.className}>
                     {props.item.description}
+                    <br/>
+                    <br/>
+                    {props.item.CHdescription}
                 </div>
       
 
                 <div className={props.item.title} >
-                     <a href={props.item.url}><div className="text">{props.item.hover}</div></a>
+                    <Link to={props.item.url}><div className="text">{props.item.hover}</div></Link>
                 </div>
 
                 <div className="container">

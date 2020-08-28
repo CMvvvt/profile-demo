@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 
-import towel from '../asset/img/towel.jpg';
-import ming from '../asset/img/ming.jpg';
-import market from '../asset/img/market.jpg';
+import towel from '../asset/img/resume.jpg';
+import ming from '../asset/img/market.jpg';
+import market from '../asset/img/ming.jpg';
 
 
 class Carousel extends React.Component {
@@ -18,16 +18,16 @@ class Carousel extends React.Component {
             items:[
                 {
                     id: 0,
-                    title: 'towel',
-                    subTitle: 'The Project Site',
+                    title: 'My CVs',
+                    subTitle: 'En/Ch Version of my CV',
                     imgSrc: towel,
-                    link:"./project",
+                    link:"/profile",
                     selected: 'false'
                 },
                 {
                     id: 1,
-                    title:'Ming Chen',
-                    subTitle: 'The profile website',
+                    title:'My Projects',
+                    subTitle: 'Web projects created by me',
                     imgSrc: ming,
                     link: './profile',
                     selected: 'false'
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title:"About Me",
-                    subTitle: 'About Site',
+                    subTitle: 'Something about me',
                     imgSrc: market,
                     link:'/about',
                     selected: 'false'

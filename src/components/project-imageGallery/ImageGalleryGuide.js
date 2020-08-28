@@ -26,13 +26,13 @@ class ImageGalleryGuide extends React.Component {
                 {
                     id:1,
                     name:'Youtube-Project',
-                    src:'./youtube',
+                    src:'/project/youtube',
                     selected:"false"
                 },
                 {
                     id:2,
                     name:"Image-Gallery",
-                    src:'./imageGallery',
+                    src:'/project/imageGallery',
                     selected:"true"
                 }
             ]

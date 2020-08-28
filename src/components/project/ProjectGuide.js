@@ -28,13 +28,13 @@ class ProjectGuide extends React.Component {
                 {
                     id:1,
                     name:'Youtube-Project',
-                    src: 'project/youtube',
+                    src: '/project/youtube',
                     selected:"false"
                 },
                 {
                     id:2,
                     name:"Image-Gallery",
-                    src:"project/imageGallery",
+                    src:"/project/imageGallery",
                     selected:"false"
                 }
             ]

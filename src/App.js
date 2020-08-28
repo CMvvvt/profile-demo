@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link
 } from "react-router-dom";
@@ -31,9 +31,9 @@ class App extends React.Component{
         {title:'Contact', path:'/contact'}
       ],
       home: {
-        title:'MING,',
-        subTitle:'Projects make difference',
-        text:'this is the text'
+        title:'HI,',
+        subTitle:'This is Ming\'s Website',
+        text:'   '
       },
       profile:{
         title:'My CVs,'
@@ -65,7 +65,7 @@ class App extends React.Component{
             <Navbar.Toggle className='border-0'  aria-control="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/profile">Profile</Link>
+                <Link className="nav-link" to="/profile">MyCVs</Link>
                 <Link className="nav-link" to="/project">Project</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -80,8 +80,6 @@ class App extends React.Component{
         <Route path='/contact' exact render={() =><ContactPage title={this.state.contact.title} /> } />
         <Route path='/project/youtube' exact render={() =><YoutubePage title={this.state.youtube.title} /> } />
         <Route path='/project/imageGallery' exact render={() =><ImageGalleryPage title={this.state.imageGallery.title} /> } />
-
-
 
         <Footer />
 

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import IconInfo from './IconInfo';
+import wechat from '../asset/img/wechat.jpg';
 
 class Icon extends React.Component {
     constructor(props) {
@@ -31,7 +32,13 @@ class Icon extends React.Component {
                     id:3,
                     title:"wechat",
                     name:"fab fa-weixin",
-                    link:"#"
+                    link:wechat
+                },
+                {
+                    id:4,
+                    title:"github",
+                    name:"fab fa-github",
+                    link:"https://github.com/CMvvvt/"
                 }
             ]
         }
